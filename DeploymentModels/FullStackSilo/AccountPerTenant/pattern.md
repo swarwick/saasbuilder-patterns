@@ -1,7 +1,7 @@
 ## Accounts Per Tenant
 
 ### Core Concept
-* There are many ways to deploy a SaaS solution. Compliance, isolation, noisy neighbor, tiering and other considerations can have lead you to deploy your SaaS offering in any number of different deployment patterns that best align with the business and operational goals of your SaaS environment. These deployment models are not mutually exclusive. Some SaaS businesses may opt to support multiple deployment models to address the specific and personas of their customer base.
+* In this full stack silo pattern, we’re essentially placing all the resources of a tenant in a separate account. This means that your onboarding process and operational experience will need to provision and configure a new account.
 
 ### Key Considerations
 * While you can automate aspects of each tenant accounts, there are some aspects of account configuration that cannot be achieved through automation. Account limits are amongst this list and represent a key area you’ll want to consider as you look at what limits will need to be adjusted for each new tenant account.
