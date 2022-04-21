@@ -14,7 +14,7 @@
 * While the resources of a siloed SaaS environment are not shared by tenants, this does not mean that you’re solution is not multi-tenant. If a silo manages, operates, onboards, and deploys all tenants with the same experience, then this is still a multi-tenant SaaS environment. It can still benefit from the same agility and operational efficiency that is part of SaaS. 
 
 ### References
-[Example Reference 1](https://aws.amazon.com)
+<a href="https://aws.amazon.com" target="_blank">Example Reference 1</a>
 
-[Example Reference 2](https://aws.amazon.com)
+<a href="https://aws.amazon.com" target="_blank">Example Reference 2</a>
 
