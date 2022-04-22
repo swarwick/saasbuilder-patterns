@@ -13,7 +13,7 @@
 * Typical use cases
 
 ### Code Example
-```
+```yaml
 AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
 Description: >
@@ -45,6 +45,16 @@ Resources:
           Properties:
             Path: /orders/{order_id}
             Method: get
+```
+
+```javascript
+marked.setOptions({
+  highlight: function(code, lang, callback) {
+    require('pygmentize-bundled') ({ lang: lang, format: 'html' }, code, function (err, result) {
+      callback(err, result.toString());
+    });
+  }
+});
 ```
 
 ### References
