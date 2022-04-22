@@ -6,12 +6,14 @@
 
 ### Core Concept
 * Describe the concept at a high level   
+<br/>   
 
 ### Key Considerations
 * List various considerations for this pattern
 * Limitations
 * Advantages
 * Typical use cases   
+<br/>    
 
 ### References
 <a href="https://aws.amazon.com" target="_blank">Example Reference 1</a>
