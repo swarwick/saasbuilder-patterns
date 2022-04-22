@@ -2,18 +2,18 @@
 <p align="center">
     <img alt="Architecture" src="./images/demo-architecture.png" />   
 </p>
-<br/>
+<p><br/></p>
 
 ### Core Concept
-* Describe the concept at a high level   
-<br/>
+* Describe the concept at a high level
+<p><br/></p>
 
 ### Key Considerations
 * List various considerations for this pattern
 * Limitations
 * Advantages
-* Typical use cases   
-<br/>
+* Typical use cases
+<p><br/></p>
 
 ### References
 <a href="https://aws.amazon.com" target="_blank">Example Reference 1</a>
