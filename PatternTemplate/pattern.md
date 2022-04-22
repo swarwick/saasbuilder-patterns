@@ -19,42 +19,38 @@ Transform: AWS::Serverless-2016-10-31
 Description: >
     sam-app
     Sample SAM Template for sam-app
-# More info about Globals: https://github.com/awslabs/serverless-application-model/blob/master/docs/globals.rst
+
 Globals:
     Function:
         Timeout: 20
         MemorySize: 512
-        Environment: # More info about Env Vars: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#environment-object
+        Environment:
           Variables:
-            TABLE_NAME: !Ref OrdersTable
+            TABLE_NAME: !Ref DemoTable
             ENDPOINT_OVERRIDE: ""
 
 Resources:
-  GetOrderFunction:
-    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+  GetDemoFunction:
+    Type: AWS::Serverless::Function
     Properties:
       CodeUri: target/aws-sam-java-rest-1.0.0.jar
-      Handler: com.amazonaws.handler.GetOrderHandler::handleRequest
+      Handler: com.amazonaws.handler.DemoHandler::handleRequest
       Runtime: java8
       Policies:
         - DynamoDBReadPolicy:
-            TableName: !Ref OrdersTable
+            TableName: !Ref DemoTable
       Events:
-        GetOrder:
-          Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
+        GetDemo:
+          Type: Api
           Properties:
-            Path: /orders/{order_id}
+            Path: /demo/{demo_id}
             Method: get
 ```
 
 ```javascript
-marked.setOptions({
-  highlight: function(code, lang, callback) {
-    require('pygmentize-bundled') ({ lang: lang, format: 'html' }, code, function (err, result) {
-      callback(err, result.toString());
-    });
-  }
-});
+function demo(input) {
+    console.log(input);
+}
 ```
 
 ### References
