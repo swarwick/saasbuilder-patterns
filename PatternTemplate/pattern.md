@@ -47,6 +47,7 @@ Resources:
             Method: get
 ```
 
+<br/>
 
 ```javascript
 function demo(input) {
