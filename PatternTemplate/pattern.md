@@ -45,16 +45,14 @@ Resources:
           Properties:
             Path: /demo/{demo_id}
             Method: get
-```
-
-<br/>   
+```   
 
 
 ```javascript
 function demo(input) {
     console.log(input);
 }
-```
+```   
 
 ### References
 <a href="https://aws.amazon.com" target="_blank">Example Reference 1</a>
