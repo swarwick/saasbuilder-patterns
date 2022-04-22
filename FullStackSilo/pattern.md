@@ -1,6 +1,7 @@
 ## Full Stack Silo Deployment
-<img alt="Architecture" src="./images/full-stack-silo.png" />   
-
+<p align="center">
+    <img alt="Architecture" src="./images/full-stack-silo.png" />   
+</p>
 <br/>
 
 ### Core Concept   
