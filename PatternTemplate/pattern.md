@@ -7,6 +7,7 @@
 ### Core Concept
 * Describe the concept at a high level   
 <br/>
+
 ### Key Considerations
 * List various considerations for this pattern
 * Limitations
