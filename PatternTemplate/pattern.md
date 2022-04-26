@@ -13,7 +13,6 @@
 * Typical use cases
 
 ### Code Example
-
 ```yaml
 AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
@@ -48,9 +47,7 @@ Resources:
             Method: get
 ```   
 
-
 **Code sample**
-
 ```javascript
 function demo(input) {
     console.log(input);
