@@ -52,6 +52,7 @@ Resources:
 
 **Code sample**
 
+<br/>
 
 ```javascript
 function demo(input) {
