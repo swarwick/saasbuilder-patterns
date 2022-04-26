@@ -3,7 +3,7 @@ name: New saas pattern submission
 about: Submit your a new pattern
 title: New pattern submission
 labels: ''
-assignees: Warwick
+assignees: swarwick
 
 ---
 
