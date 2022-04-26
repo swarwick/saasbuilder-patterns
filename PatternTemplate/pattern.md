@@ -6,15 +6,14 @@
 ### Core Concept
 * Describe the concept at a high level
 
-
 ### Key Considerations
 * List various considerations for this pattern
 * Limitations
 * Advantages
 * Typical use cases
 
-
 ### Code Example
+
 ```yaml
 AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
@@ -51,8 +50,6 @@ Resources:
 
 
 **Code sample**
-
-<br/>
 
 ```javascript
 function demo(input) {
