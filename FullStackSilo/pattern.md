@@ -5,7 +5,7 @@
 
 ### Core Concept   
 * The idea of full stack silo is that all of the infrastructure for a tenant is deployed in a single, self-contained construct. Silo models are used for a variety of reasons. Some rely on a silo based on compliance considerations. Others may choose silo based on noisy neighbor, legacy migration, or a host of other consideration. This model can have some adverse effects on the cost, operational, and agility efficiency of a SaaS environment.   
-
+<br/>
 
 
 ### Key Considerations   
