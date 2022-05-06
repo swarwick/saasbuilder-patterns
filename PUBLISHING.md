@@ -10,16 +10,16 @@ To submit a new saas builder pattern, or to make changes to existing code, follo
 
 * **local:** Your local copy of the forked repository.
 * **origin:** Your forked, remote copy of the original repository.
-* **upstream:** The original, remote serverless-patterns repository.
+* **upstream:** The original, remote saasbuilder-patterns repository.
 
 ## Initial Setup
 
-[Fork and Clone](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) the serverless-patterns repo.
+[Fork and Clone](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) the saasbuilder-patterns repo.
 
 1. Fork the original saasbuilder-patterns repo to create a copy of the repo in your own GitHub account: https://github.com/swarwick/saasbuilder-patterns
 1. Clone your copy of the repo to download it locally: `git clone https://github.com/{your-github-username}/saasbuilder-patterns.git`
-1. Change into the new local directory: `cd serverless-patterns`
-1. Add the original serverless-patterns repo as another remote repo called "upstream": `git remote add upstream https://github.com/swarwick/saasbuilder-patterns`
+1. Change into the new local directory: `cd saasbuilder-patterns`
+1. Add the original saasbuilder-patterns repo as another remote repo called "upstream": `git remote add upstream https://github.com/swarwick/saasbuilder-patterns`
 1. For verification, display the remote repos: `git remote -v`
 
    The output should look like this:
@@ -69,15 +69,14 @@ Push your code to the remote repos and [create a pull request](https://docs.gith
 
    If this is the first push to the remote origin repo, you will be asked to Connect to GitHub to authorize the connection. Sometimes the pop-up window appears behind other windows.
 
-1. Go to the [upstream repo](https://github.com/aws-samples/serverless-patterns) in Github and click "Compare & pull request".
-    1. Enter an appropriate title:
+1. Go to the [upstream repo](https://github.com/swarwick/saasbuilder-patterns) in Github and click "Compare & pull request".
+    1. Enter an appropriate title including path the pattern should appear under:
 
-       Example title: `New serverless pattern - lambda-aurora-serverless`
+       Example title: `New pattern submission - Under - Deployment Models\Full Stack Silo Deployment\Silo Security`
 
-    1. Add a description of the changes.
+    1. Add a short description of the pattern.
     1. Click "Create pull request".
-1. Submit a [new issue](https://github.com/aws-samples/serverless-patterns/issues/new?assignees=jbesw&labels=&template=new-serverless-pattern-submission.md&title=New+pattern+submission) to provide the additional details that will be used to build the serverless pattern web page on ServerlessLand.com.
-    1. Provide responses to each section (eg: Core Concepts, Key Considerations, Reference, etc.)
+1. Submit a [new issue](https://github.com/swarwick/saasbuilder-patterns/issues/new?assignees=swarwick&labels=&template=new-saas-pattern-submission.md&title=New+pattern+submission+-+Under+-) to provide the additional details that will be used to build the saas pattern on SaaSBuilder.com.
     2. Add a link to the pull request in the "GitHub PR for template" section. If you type a hashtag (#), it will display a list of the current pull requests to select from.
     3. Be sure to provide your information in the "Author bio" section.
     4. Click "Submit new issue".

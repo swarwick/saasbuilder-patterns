@@ -1,6 +1,6 @@
 ---
 name: New saas pattern submission
-about: Submit your a new pattern
+about: Submit a new saas pattern
 title: New pattern submission
 labels: ''
 assignees: swarwick
@@ -14,7 +14,7 @@ To submit a pattern to the SaaS Patterns collection, submit an issue with the fo
 - All reference material linked
 - Provide your information in the "Author bio" section
   - Author bio may include a LinkedIn and/or Twitter reference and a 1-sentence bio.
-- Use the pattern template located at https://github.com/swarwick/saasbuilder/tree/main/PatternTemplate to set up a pattern.
+- Use the pattern template located at https://github.com/swarwick/saasbuilder-patterns/tree/main/PatternTemplate to set up a pattern.
 
 You must ensure that the sections of the pattern.md are completed in full.
 
