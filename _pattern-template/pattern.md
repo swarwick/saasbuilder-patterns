@@ -6,13 +6,11 @@
 ### Core Concept
 * Describe the concept at a high level
 
-
 ### Key Considerations
 * List various considerations for this pattern
 * Limitations
 * Advantages
 * Typical use cases
-
 
 ### Code Example
 ```yaml
@@ -49,11 +47,7 @@ Resources:
             Method: get
 ```   
 
-
 **Code sample**
-
-<br/>
-
 ```javascript
 function demo(input) {
     console.log(input);
