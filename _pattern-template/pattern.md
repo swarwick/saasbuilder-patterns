@@ -1,4 +1,3 @@
-## {{Pattern Name}}
 <p align="center">
     <img alt="Architecture" src="./images/demo-architecture.png" />   
 </p>

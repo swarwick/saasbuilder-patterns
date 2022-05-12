@@ -1,4 +1,3 @@
-## Full Stack Silo Deployment
 <p align="center">
     <img alt="Architecture" src="./images/full-stack-silo.png" />   
 </p>

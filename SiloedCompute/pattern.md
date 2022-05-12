@@ -1,5 +1,3 @@
-## Siloed Compute
-
 ### Core Concept
 * In a siloed compute mode, we saying that a compute resource will be deployed in a model where the compute resources are dedicated to a tenant. The motives for siloing computing can span a range of considerations, including noisy neighbor, isolation, tiering models, and application use cases. The mechanisms for partitioning compute can vary substantially. Containers and serverless, would rely on different strategies silo compute. 
 

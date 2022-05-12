@@ -1,5 +1,3 @@
-## Accounts Per Tenant
-
 ### Core Concept
 * In this full stack silo pattern, we’re essentially placing all the resources of a tenant in a separate account. This means that your onboarding process and operational experience will need to provision and configure a new account.
 

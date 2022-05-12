@@ -1,5 +1,3 @@
-## VPC Per Tenant
-
 ### Core Concept
 * In this full stack silo pattern VPCs are used as the fundamental unit of deployment and isolation for each tenant. A VPC is provisioned each time a tenant onboards along with the application infrastructure that will be associated with that tenant. Networking constructs will be used to ensure that tenants are prevented from accessing the the VPCs of other tenants.
 

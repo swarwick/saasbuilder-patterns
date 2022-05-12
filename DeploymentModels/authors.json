@@ -1,0 +1,25 @@
+{
+  "authors": [
+    {
+      "name": "Steven Warwick",
+      "image": "./images/steven-warwick.jpeg",
+      "bio": "Steven Warwick is a Solutions Architect at AWS. He is an engineer at heart with a passion for creating simple solutions to complex problems. He has a background in real time analytics and a passion for SaaS implementations. In his free time, he plays badminton and tinkers with IoT projects around the house.",
+      "linkedin": "https://www.linkedin.com/in/swarwickdeveloper/",
+      "twitter": "https://twitter.com/StevenCWarwick"
+    },
+    {
+      "name": "Vijay Niles",
+      "image": "./images/vijay-niles.jpeg",
+      "bio": "As a certified AWS Solutions Architect, I provide the subject matter expertise to help organizations transform their IT infrastructure, operations and applications to make the most of the scalability, innovation and reliability of the AWS platform.\n\nMy job is to help my customers' achieve their cloud computing initiatives in a structured manner by providing hands-on consulting services for system architecture (designing highly available systems), database migration, implementing disaster recovery strategies (best practices for RTO and RPO) and finding innovative cloud cost reduction strategies.\n\nI have extensive knowledge in designing and implementing cloud architecture which leverages cloud native features and best practices as well as the professional consulting experience in helping organizations assess, plan and execute infrastructure migrations to the public cloud.",
+      "linkedin": "https://ca.linkedin.com/in/vijay-niles",
+      "twitter": ""
+    },
+    {
+      "name": "Tod Golding",
+      "image": "./images/tod-golding.jpeg",
+      "bio": "Software architect and wannabe playwright",
+      "linkedin": "https://www.linkedin.com/in/tod-golding-0ba35b2/",
+      "twitter": "https://twitter.com/tod_golding"
+    }
+  ]
+}

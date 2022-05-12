@@ -1,0 +1,59 @@
+{
+  "patterns": [
+    {
+      "name": "Deployment Models",
+      "path": "DeploymentModels",
+      "patterns": [
+        {
+          "name": "Full Stack Silo Deployment",
+          "path": "FullStackSilo",
+          "patterns": [
+            {
+              "name": "Account per tenant",
+              "path": "AccountPerTenant",
+              "patterns": []
+            },
+            {
+              "name": "VPC per tenant",
+              "path": "VPCPerTenant",
+              "patterns": []
+            }
+          ]
+        },
+        {
+          "name": "Full Stack Pool Deployment",
+          "path": "FullStackPool",
+          "patterns": [
+            {
+              "name": "EKS Full Stack Pool Deployment",
+              "path": "EKSFullStackPoolDeployment",
+              "patterns": []
+            },
+            {
+              "name": "Serverless Full Stack Pool Deployment",
+              "path": "ServerlessFullStackPoolDeployment",
+              "patterns": []
+            },
+            {
+              "name": "EC2 Full Stack Pool Deployment",
+              "path": "EC2FullStackPoolDeployment",
+              "patterns": []
+            }
+          ]
+        },
+        {
+          "name": "Siloed Compute",
+          "path": "SiloedCompute",
+          "patterns": [
+          ]
+        },
+        {
+          "name": "Mixed Deployment",
+          "path": "MixedDeployment",
+          "patterns": [
+          ]
+        }
+      ]
+    }
+  ]
+}

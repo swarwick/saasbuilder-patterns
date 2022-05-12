@@ -1,5 +1,3 @@
-## Full Stack Pool
-
 ### Core Concept
 * A full stack pool deployment is one where all the resources are shared by tenants. This model focuses heavily on maximizing the operational, agility, and cost efficiency that is associated with having tenants share a scale resources collectively. Deploying and operating these environments has less complexity than siloed environments. Isolation can prove more challenging in pooled environments where there’s a reliance on more creative and more fine-grained isolation constructs.
 

@@ -1,5 +1,3 @@
-## Deployment Models
-
 ### Core Concept
 * There are many ways to deploy a SaaS solution. Compliance, isolation, noisy neighbor, tiering and other considerations can have lead you to deploy your SaaS offering in any number of different deployment patterns that best align with the business and operational goals of your SaaS environment. These deployment models are not mutually exclusive. Some SaaS businesses may opt to support multiple deployment models to address the specific and personas of their customer base.
 
