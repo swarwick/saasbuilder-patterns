@@ -1,46 +1,56 @@
 {
   "patterns": [
     {
+      "id": "48774131-176e-489d-b1bf-23a940ab2c16",
       "name": "Deployment Models",
       "path": "DeploymentModels",
       "children": [
         {
+          "id": "155ac272-8e89-11ec-b909-0242ac120002",
           "name": "Full Stack Silo Deployment",
           "path": "FullStackSilo",
           "children": [
             {
+              "id": "097463b2-8e8b-11ec-b909-0242ac120002",
               "name": "Account per tenant",
               "path": "AccountPerTenant"
             },
             {
+              "id": "0fb71756-8e8b-11ec-b909-0242ac120002",
               "name": "VPC per tenant",
               "path": "VPCPerTenant"
             }
           ]
         },
         {
+          "id": "1b2cc466-8e89-11ec-b909-0242ac120002",
           "name": "Full Stack Pool Deployment",
           "path": "FullStackPool",
           "children": [
             {
+              "id": "1482fb92-8e8b-11ec-b909-0242ac120002",
               "name": "EKS Full Stack Pool Deployment",
               "path": "EKSFullStackPoolDeployment"
             },
             {
+              "id": "1ca7b1be-8e8b-11ec-b909-0242ac120002",
               "name": "Serverless Full Stack Pool Deployment",
               "path": "ServerlessFullStackPoolDeployment"
             },
             {
+              "id": "2132f8b0-8e8b-11ec-b909-0242ac120002",
               "name": "EC2 Full Stack Pool Deployment",
               "path": "EC2FullStackPoolDeployment"
             }
           ]
         },
         {
+          "id": "59C45492-714F-4481-9F79-DEBC6409A5D9",
           "name": "Siloed Compute",
           "path": "SiloedCompute"
         },
         {
+          "id": "3179c8cc-8e89-11ec-b909-0242ac120002",
           "name": "Mixed Deployment",
           "path": "MixedDeployment"
         }
