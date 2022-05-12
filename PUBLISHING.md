@@ -37,7 +37,7 @@ Create a new local branch for each saas pattern or modification being made. This
 
 1. Create and checkout a new local branch before making code changes: `git checkout -b {branch-name}`
 
-   Branch name syntax: `{username}-{feature|fix}-{description}`
+   Branch name syntax: `{username}-{pattern|fix}-{description}`
 
    Example branch name: `myusername-silo-security-saasbuilder`
 
@@ -57,9 +57,12 @@ Create a new local branch for each saas pattern or modification being made. This
 Now is the time to create your new saas pattern or modify an existing pattern.
 
 1. If you are creating a new saas pattern, copy the folder named "_pattern-template" to start with a template: `cp -r _pattern-template {new-folder-name}`
-1. If you are modifying an existing pattern, make your code changes now.
-1. When your pattern is complete, stage the changes to your local branch: `git add .`
-1. Commit the changes to your local branch: `git commit -m 'Comment here'`
+2. If you are modifying an existing pattern, make your code changes now.
+3. Update the authors.json file completed with all authors of this pattern
+4. Update the patterns.json file in the repositories root directory and include your new pattern in the correct location as a new root or child of another pattern
+5. You can test the format of your layout [here](https://saasbuilder.com/#/Preview) to validate the markdown
+6. When your pattern is complete, stage the changes to your local branch: `git add .`
+7. Commit the changes to your local branch: `git commit -m 'Comment here'`
 
 ## Pull Request
 
@@ -77,10 +80,9 @@ Push your code to the remote repos and [create a pull request](https://docs.gith
     1. Add a short description of the pattern.
     1. Click "Create pull request".
 1. Submit a [new issue](https://github.com/swarwick/saasbuilder-patterns/issues/new?assignees=swarwick&labels=&template=new-saas-pattern-submission.md&title=New+pattern+submission+-+Under+-+{Pattern\Path}) to provide the additional details that will be used to build the saas pattern on SaaSBuilder.com.
-   1. Add a link to the pull request in the "GitHub PR for template" section. If you type a hashtag (#), it will display a list of the current pull requests to select from.
-   2. Be sure to provide your information in the "Author bio" section.
-   3. Click "Submit new issue".
-   4. Example issue: https://github.com/swarwick/saasbuilder-patterns/issues/2
+   1. Add a link to the pull request in the "GitHub PR for template" section. If you type a hashtag (#), it will display a list of the current pull requests to select from. 
+   2. Click "Submit new issue". 
+   3. Example issue: https://github.com/swarwick/saasbuilder-patterns/issues/2
 
 ## Sync Repos
 
