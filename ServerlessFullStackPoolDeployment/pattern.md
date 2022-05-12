@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="Architecture" src="./images/demo-architecture.png" />   
+    <img style="max-width: 750px;" alt="Architecture" src="./images/demo-architecture.png" />   
 </p>
 
 ### Core Concept
