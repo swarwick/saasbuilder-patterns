@@ -3,55 +3,46 @@
     {
       "name": "Deployment Models",
       "path": "DeploymentModels",
-      "patterns": [
+      "children": [
         {
           "name": "Full Stack Silo Deployment",
           "path": "FullStackSilo",
-          "patterns": [
+          "children": [
             {
               "name": "Account per tenant",
-              "path": "AccountPerTenant",
-              "patterns": []
+              "path": "AccountPerTenant"
             },
             {
               "name": "VPC per tenant",
-              "path": "VPCPerTenant",
-              "patterns": []
+              "path": "VPCPerTenant"
             }
           ]
         },
         {
           "name": "Full Stack Pool Deployment",
           "path": "FullStackPool",
-          "patterns": [
+          "children": [
             {
               "name": "EKS Full Stack Pool Deployment",
-              "path": "EKSFullStackPoolDeployment",
-              "patterns": []
+              "path": "EKSFullStackPoolDeployment"
             },
             {
               "name": "Serverless Full Stack Pool Deployment",
-              "path": "ServerlessFullStackPoolDeployment",
-              "patterns": []
+              "path": "ServerlessFullStackPoolDeployment"
             },
             {
               "name": "EC2 Full Stack Pool Deployment",
-              "path": "EC2FullStackPoolDeployment",
-              "patterns": []
+              "path": "EC2FullStackPoolDeployment"
             }
           ]
         },
         {
           "name": "Siloed Compute",
-          "path": "SiloedCompute",
-          "patterns": [
-          ]
+          "path": "SiloedCompute"
         },
         {
           "name": "Mixed Deployment",
-          "path": "MixedDeployment",
-          "patterns": [
-          ]
+          "path": "MixedDeployment"
         }
       ]
     }
