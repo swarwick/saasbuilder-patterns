@@ -1,5 +1,5 @@
 <p align="center">
-    <img style="max-width: 750px;" alt="Architecture" src="./images/full-stack-silo.png" />   
+    <img class="pattern-image" alt="Architecture" src="./images/full-stack-silo.png" />   
 </p>
 
 ### Core Concept   
