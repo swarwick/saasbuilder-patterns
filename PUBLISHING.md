@@ -1,7 +1,5 @@
 ## How to Publish a Pattern on [SaaSBuilder](https://main.d64uo5pr4i9km.amplifyapp.com/)
 
---
-
 To submit a new saas builder pattern, or to make changes to existing code, follow the instructions below.
 
 ## Repo Names
