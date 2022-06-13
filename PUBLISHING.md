@@ -1,6 +1,6 @@
 ## How to Publish a Pattern on [SaaSBuilder](https://main.d64uo5pr4i9km.amplifyapp.com/)
 
-To submit a new saas builder pattern, or to make changes to existing code, follow the instructions below.
+To submit a new saas builder pattern, or to make changes to existing code, follow the instructions below. Note: I can take up to 24 hours for a new pattern to appear after a pull request is accepted.
 
 ## Repo Names
 
@@ -76,9 +76,9 @@ Push your code to the remote repos and [create a pull request](https://docs.gith
 
     1. Add a short description of the pattern.
     1. Click "Create pull request".
-1. Submit a [new issue](https://github.com/swarwick/saasbuilder-patterns/issues/new?assignees=swarwick&labels=&template=new-saas-pattern-submission.md&title=New+pattern+submission+-+Under+-+{Pattern\Path}) to provide the additional details that will be used to build the saas pattern on SaaSBuilder.com.
+1. Submit a [new issue](https://github.com/swarwick/saasbuilder-patterns/issues/new?assignees=swarwick&labels=&template=new-saas-pattern-submission.md&title=New+pattern+submission+-+Under+-+{Pattern\Path}) or use an existing issue to provide the additional details that will be used to build the saas pattern on SaaSBuilder.com.
    1. Add a link to the pull request in the "GitHub PR for template" section. If you type a hashtag (#), it will display a list of the current pull requests to select from. 
-   2. Click "Submit new issue". 
+   2. Click "Submit new issue" (Or update an existing issue). 
    3. Example issue: https://github.com/swarwick/saasbuilder-patterns/issues/2
 
 ## Sync Repos
