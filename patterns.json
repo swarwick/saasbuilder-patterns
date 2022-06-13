@@ -55,6 +55,11 @@
           "path": "MixedDeployment"
         }
       ]
+    },
+    {
+      "id": "452ecd96-eb17-11ec-8fea-0242ac120002",
+      "name": "Identity",
+      "path": "Identity"
     }
   ]
 }
