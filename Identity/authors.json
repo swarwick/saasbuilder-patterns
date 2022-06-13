@@ -1,0 +1,18 @@
+{
+  "authors": [
+    {
+      "name": "Steven Warwick",
+      "image": "./images/steven-warwick.jpeg",
+      "bio": "Steven Warwick is a Solutions Architect at AWS. He is an engineer at heart with a passion for creating simple solutions to complex problems. He has a background in real time analytics and a passion for SaaS implementations. In his free time, he plays badminton and tinkers with IoT projects around the house.",
+      "linkedin": "https://www.linkedin.com/in/swarwickdeveloper/",
+      "twitter": "https://twitter.com/StevenCWarwick"
+    },
+    {
+      "name": "Tod Golding",
+      "image": "./images/tod-golding.jpeg",
+      "bio": "Software architect and wannabe playwright",
+      "linkedin": "https://www.linkedin.com/in/tod-golding-0ba35b2/",
+      "twitter": "https://twitter.com/tod_golding"
+    }
+  ]
+}
