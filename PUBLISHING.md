@@ -54,9 +54,9 @@ Now is the time to create your new saas pattern or modify an existing pattern.
 
 1. If you are creating a new saas pattern, copy the folder named "_pattern-template" to start with a template: `cp -r _pattern-template {new-folder-name}`
 2. If you are modifying an existing pattern, make your code changes now.
-3. Update the authors.json file completed with all authors of this pattern
-4. Update the patterns.json file in the repositories root directory and include your new pattern in the correct location as a new root or child of another pattern
-5. You can test the format of your layout [here](https://main.d64uo5pr4i9km.amplifyapp.com/#/Preview) to validate the markdown.
+3. Update the authors.json file complete with all authors of this pattern
+4. Update the patterns.json file in the repositories root directory and include your new pattern in the correct location as a new root or child of another pattern. Create a new UUID for your new patterns id and make sure it is not used by any other existing pattern.
+5. You can test the format of your layout [here](https://main.d64uo5pr4i9km.amplifyapp.com/#/Preview) to validate the patterns markdown.
 - Use the full URL to your github pattern folder 
 6. When your pattern is complete, stage the changes to your local branch: `git add .`
 7. Commit the changes to your local branch: `git commit -m 'Comment here'`
