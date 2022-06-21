@@ -66,6 +66,11 @@
           "name": "Self-Hosted Identity",
           "path": "SelfHostedIdentity"
         }
+        {
+          "id": "02e6e91c-fc42-4940-854e-e1fga1b14f2a",
+          "name": "Externally Hosted Identity",
+          "path": "ExternallyHostedIdentity"
+        }
       ]
     }
   ]
